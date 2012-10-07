@@ -1,5 +1,6 @@
+
 body {
-	background: #fff;
+	background: url('bg.png') repeat;
 	font: 400 14px/1.6 'Open Sans', Verdana, Helvetica, sans-serif;
 }
 
