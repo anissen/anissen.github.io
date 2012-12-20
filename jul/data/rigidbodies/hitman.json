@@ -1,0 +1,302 @@
+{
+  "rigidbody": {
+    "particle": [
+      {
+        "id": "0x95a46d0",
+        "label": "left foot",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": -9.86779,
+          "y": 1.24004,
+          "z": 1
+        }
+      },
+      {
+        "id": "0x95aac20",
+        "label": "left knee",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": -9.86779,
+          "y": 8.55809,
+          "z": -1
+        }
+      },
+      {
+        "id": "0x95aad08",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": -8.23947,
+          "y": 16.975,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95aade0",
+        "label": "right foot",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": 7.59656,
+          "y": 1.52846,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95aaee0",
+        "label": "right knee",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": 7.59655,
+          "y": 8.25989,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95aafc8",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": 5.3989,
+          "y": 16.8589,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab0b0",
+        "label": "right hip",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": 2.23973,
+          "y": 24.5595,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab198",
+        "label": "left hip",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": -6.86021,
+          "y": 24.6226,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab280",
+        "label": "right shoulder",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": 5.17482,
+          "y": 36.2943,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab3b0",
+        "label": "left shoulder",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": -8.89142,
+          "y": 36.4363,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab498",
+        "label": "neck",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": -1.78578,
+          "y": 42.0623,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab580",
+        "label": "head",
+        "mass": 3,
+        "immovable": true,
+        "position": {
+          "x": -1.5903,
+          "y": 47.5814,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab668",
+        "label": "right hand",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": 7.3923,
+          "y": 20.0263,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab750",
+        "label": "right albow",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": 8.9923,
+          "y": 28.3994,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab838",
+        "label": "left hand",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": -14.3626,
+          "y": 19.2209,
+          "z": 0
+        }
+      },
+      {
+        "id": "0x95ab920",
+        "label": "left albow",
+        "mass": 3,
+        "immovable": false,
+        "position": {
+          "x": -14.3626,
+          "y": 28.4964,
+          "z": 0
+        }
+      }
+    ],
+    "constraint": [
+      {
+        "particle1": "0x95a46d0",
+        "particle2": "0x95aac20",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95aac20",
+        "particle2": "0x95aad08",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95aad08",
+        "particle2": "0x95ab198",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab198",
+        "particle2": "0x95ab0b0",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab0b0",
+        "particle2": "0x95aafc8",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95aafc8",
+        "particle2": "0x95aaee0",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95aaee0",
+        "particle2": "0x95aade0",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95aafc8",
+        "particle2": "0x95aad08",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab198",
+        "particle2": "0x95aafc8",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab0b0",
+        "particle2": "0x95aad08",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab0b0",
+        "particle2": "0x95ab280",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab280",
+        "particle2": "0x95ab3b0",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab3b0",
+        "particle2": "0x95ab198",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab198",
+        "particle2": "0x95ab280",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab0b0",
+        "particle2": "0x95ab3b0",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab3b0",
+        "particle2": "0x95ab498",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab498",
+        "particle2": "0x95ab280",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab498",
+        "particle2": "0x95ab0b0",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab198",
+        "particle2": "0x95ab498",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab838",
+        "particle2": "0x95ab920",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab668",
+        "particle2": "0x95ab750",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab920",
+        "particle2": "0x95ab3b0",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab280",
+        "particle2": "0x95ab750",
+        "satisfier": { "id": "Default" }
+      },
+      {
+        "particle1": "0x95ab498",
+        "particle2": "0x95ab580",
+        "satisfier": { "id": "Default" }
+      }
+    ]
+  }
+}

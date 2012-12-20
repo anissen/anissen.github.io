@@ -1,0 +1,35 @@
+{
+  "rigidbody": {
+    "particle": [
+      {
+        "id": "0",
+        "label": "left",
+        "mass": 3,
+        "immovable": true,
+        "position": {
+          "x": -10,
+          "y": 5,
+          "z": -10
+        }
+      },
+      {
+        "id": "1",
+        "label": "right",
+        "mass": 3,
+        "immovable": true,
+        "position": {
+          "x": 10,
+          "y": 10,
+          "z": 10
+        }
+      }
+    ],
+    "constraint": [
+      {
+        "particle1": "0",
+        "particle2": "1",
+        "satisfier": { "id": "Default" }
+      }
+    ]
+  }
+}
