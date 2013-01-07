@@ -40,9 +40,10 @@
     <div class="container">
       <div class="card thumbnail">
         <h1>Hi.</h1>
-        <h2>I'm</h2>
-        <h2><span class="dynamo" data-delimiter="|" data-speed="500" data-delay="2000" data-center="true" data-lines="28 years old|living in Aarhus, Denmark|a MSc in Computer Science|a game development enthusiast">Anders</span></h2>
-        <br/>
+	<!-- <h2>I'm</h2>
+	<h2><span class="dynamo" data-delimiter="|" data-speed="500" data-delay="2000" data-center="true" data-lines="28 years old|living in Aarhus, Denmark|a MSc in Computer Science|a game development enthusiast">Anders</span></h2> -->
+	<h2 style="min-height: 50px" data-typer-targets="I'm 28 years old|I'm living in Aarhus, Denmark|I have a MSc in Computer Science|I'm a game development enthusiast|I love being creative|... and writing creative code|Have a look at my links below|Please have a look at my links below|Please have a look at my links below :)">My name is Anders</h2>
+	<!-- <br/> -->
         <hr/>
         <p>
           <a href="/planetarium">game portfolio</a> | <a href="http://github.com/annissen">code</a> | <a href="http://twitter.com/andershnissen">tweets</a> | <a href="http://www.linkedin.com/pub/anders-hauge-nissen/13/5a6/294">linkedin</a>
@@ -52,6 +53,10 @@
     </div>
 
     <script src="lib/jquery.min.js"></script>
-    <script src="lib/dynamo.min.js"></script>
+    <!-- <script src="lib/dynamo.min.js"></script> -->
+    <script src="lib/jquery.typer.js"></script>
+    <script>
+      $('[data-typer-targets]').typer();
+    </script>
   </body>
 </html>
