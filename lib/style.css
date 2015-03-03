@@ -1,7 +1,7 @@
 
 body {
 	background: url('bg.png') repeat;
-	font: 400 14px/1.6 'Open Sans', Verdana, Helvetica, sans-serif;
+	font: 400 16px/1.6 'Open Sans', Verdana, Helvetica, sans-serif;
 }
 
 h1 {
@@ -19,7 +19,8 @@ a {
 }
 
 a:hover {
-	color: #444;
+    text-decoration: none;
+	color: #333;
 }
 
 .card
